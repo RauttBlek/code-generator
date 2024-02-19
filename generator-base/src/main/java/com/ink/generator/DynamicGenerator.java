@@ -15,7 +15,7 @@ public class DynamicGenerator {
     public static void doGenerate(File input, File output, Object model) throws IOException, TemplateException {
         Configuration configuration = new Configuration(Configuration.VERSION_2_3_32);
         //配置模板文件路径等
-        configuration.setDirectoryForTemplateLoading(input.getParentFile());
+        configuration.setDirectoryForTemplateLoading(input);
         configuration.setDefaultEncoding("UTF-8");
         configuration.setTemplateExceptionHandler(TemplateExceptionHandler.RETHROW_HANDLER);
         //读取模板并生成为template对象
