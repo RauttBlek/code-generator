@@ -9,6 +9,7 @@ public class MainGenerator {
 
     public static void doGenerate(Object model) throws TemplateException, IOException {
         //静态生成，直接复制
+        //todo 文件路径需变动
         File staticInput = new File("README.md");
         File staticOutput = new File("output/README.md");
         StaticGenerator.copyByHuTool(staticInput, staticOutput);
