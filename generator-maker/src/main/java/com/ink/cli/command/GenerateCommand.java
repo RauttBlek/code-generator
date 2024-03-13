@@ -1,8 +1,8 @@
 package com.ink.cli.command;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.ink.generator.MainGenerator;
-import com.ink.model.AcmModel;
+import com.ink.generator.file.MainFileGenerator;
+import com.ink.model.dataModel;
 import lombok.Data;
 import picocli.CommandLine;
 
@@ -21,9 +21,9 @@ public class GenerateCommand implements Callable<Integer> {
 
     @Override
     public Integer call() throws Exception {
-        AcmModel model = new AcmModel();
+        dataModel model = new dataModel();
         BeanUtil.copyProperties(this, model);
-        MainGenerator.doGenerate(model);
+        MainFileGenerator.doGenerate(model);
         return 0;
     }
 }
