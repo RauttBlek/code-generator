@@ -1,4 +1,4 @@
-package com.ink.generator.file;
+package com.ink.maker.generator.file;
 
 import cn.hutool.core.io.FileUtil;
 

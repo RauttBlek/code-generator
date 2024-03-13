@@ -1,8 +1,8 @@
-package com.ink.cli;
+package com.ink.maker.cli;
 
-import com.ink.cli.command.ConfigOutputCommand;
-import com.ink.cli.command.GenerateCommand;
-import com.ink.cli.command.ListCommand;
+import com.ink.maker.cli.command.ConfigOutputCommand;
+import com.ink.maker.cli.command.GenerateCommand;
+import com.ink.maker.cli.command.ListCommand;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 

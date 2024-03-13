@@ -1,4 +1,4 @@
-package com.ink.cli.command;
+package com.ink.maker.cli.command;
 
 import cn.hutool.core.io.FileUtil;
 import picocli.CommandLine;

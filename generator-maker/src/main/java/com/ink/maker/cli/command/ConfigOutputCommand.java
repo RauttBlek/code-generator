@@ -1,7 +1,7 @@
-package com.ink.cli.command;
+package com.ink.maker.cli.command;
 
 import cn.hutool.core.util.ReflectUtil;
-import com.ink.model.dataModel;
+import com.ink.maker.model.dataModel;
 import picocli.CommandLine;
 
 import java.lang.reflect.Field;

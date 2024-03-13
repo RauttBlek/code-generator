@@ -52,7 +52,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.ink.Main</mainClass>
+                            <mainClass>com.ink.maker.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -1,8 +1,8 @@
-package com.ink.cli.command;
+package com.ink.maker.cli.command;
 
 import cn.hutool.core.bean.BeanUtil;
-import com.ink.generator.file.MainFileGenerator;
-import com.ink.model.dataModel;
+import com.ink.maker.generator.file.MainFileGenerator;
+import com.ink.maker.model.dataModel;
 import lombok.Data;
 import picocli.CommandLine;
 

@@ -1,4 +1,4 @@
-package com.ink.model;
+package com.ink.maker.model;
 
 import lombok.Data;
 

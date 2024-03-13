@@ -1,6 +1,6 @@
-package com.ink;
+package com.ink.maker;
 
-import com.ink.cli.CommandExecutor;
+import com.ink.maker.cli.CommandExecutor;
 
 public class Main {
     public static void main(String[] args) {
